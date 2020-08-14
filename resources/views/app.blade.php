@@ -24,16 +24,16 @@
 
                             <ul class="list-none p-0">
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" to="/">Logo</router-link>
+                                    <router-link class="text-black" to="/" exact>Logo</router-link>
                                 </li>
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" :to="{ name: 'about' }">Logo Symbol</router-link>
+                                    <router-link class="text-black" to="/logo-symbol">Logo Symbol</router-link>
                                 </li>
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" :to="{ name: 'about' }">Colors</router-link>
+                                    <router-link class="text-black" to="/colors">Colors</router-link>
                                 </li>
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" :to="{ name: 'about' }">Typography</router-link>
+                                    <router-link class="text-black" to="/typography">Typography</router-link>
                                 </li>
                             </ul>
                         </section>
@@ -43,16 +43,16 @@
 
                             <ul class="list-none p-0">
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" to="/">Mascot</router-link>
+                                    <router-link class="text-black" to="/mascot">Mascot</router-link>
                                 </li>
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" :to="{ name: 'about' }">Illustrations</router-link>
+                                    <router-link class="text-black" to="/illustrations">Illustrations</router-link>
                                 </li>
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" to="/">Loaders & Animations</router-link>
+                                    <router-link class="text-black" to="/loaders-and-animations">Loaders & Animations</router-link>
                                 </li>
                                 <li class="text-sm pb-4 leading-40">
-                                    <router-link class="text-black" :to="{ name: 'about' }">Wallpapers</router-link>
+                                    <router-link class="text-black" to="/wallpapers">Wallpapers</router-link>
                                 </li>
                             </ul>
                         </section>
